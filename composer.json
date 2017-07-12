@@ -1,0 +1,23 @@
+{
+  "name": "dypa/vagrant-php-cli",
+  "autoload": {
+    "psr-4": {
+      "Dypa\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.1.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "6.2.*"
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Dypa\\Vagrant\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "bin-dir": "bin"
+  },
+  "prefer-stable": true
+}
